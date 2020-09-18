@@ -19,6 +19,6 @@ Merged VCF without problematic sites and with missing data for a particular samp
 For example:
 Three files (containing sample1, sample2 and sample3) served as input to ARTIC-2-UShER.py. For a given site 68, if sample1 matched the reference, sample2 possessed the alternate allele, and sample3 possessed missing data ("N"), the corresponding line in the output vcf would read as follows:
 
-#CHROM    POS     ID	    REF     ALT     QUAL    FILTER    INFO    FORMAT    Sample1    Sample2    Sample3
+#CHROM    &emsp;POS     &emsp;ID	   &emsp; REF     &emsp;ALT     QUAL    FILTER    INFO    FORMAT    Sample1    Sample2    Sample3
 
-MN908947.3	&emsp;68	   .	     A	     T	     .	      .	      AC=1      GT	       0	        1          .
+MN908947.3	&emsp;68	   &emsp;.	    &emsp; A	  &emsp;   T	     .	      .	      AC=1      GT	       0	        1          .
