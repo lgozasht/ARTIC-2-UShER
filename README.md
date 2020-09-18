@@ -21,4 +21,4 @@ Three files (containing sample1, sample2 and sample3) served as input to ARTIC-2
 
 #CHROM    POS     ID	    REF     ALT     QUAL    FILTER    INFO    FORMAT    Sample1    Sample2    Sample3
 
-MN908947.3	68	   .	     A	     T	     .	      .	      AC=1      GT	       0	        1          .
+MN908947.3	&nbsp;68	   .	     A	     T	     .	      .	      AC=1      GT	       0	        1          .
