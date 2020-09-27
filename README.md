@@ -21,7 +21,7 @@ Multiple sequence alignment file(s) (suchlike ARTIC Network multiple sequence al
 
 ### Usage
 
-Please ensure sequenceAnalyzer.py is in your current working directory. 
+Please ensure that MAFFT (see https://mafft.cbrc.jp/alignment/software/ ) is in your system path.
 
 ```
 python3 Fasta2UShER.py -inpath ./test -outfile ./test/test_merged.vcf
