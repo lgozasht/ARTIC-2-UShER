@@ -37,5 +37,5 @@ For the example above, a new VCF *test/test_merged.vcf* is generated (identical 
 **UShER:**
 * Coming soon
 
-**For ARTIC-2-UShER, please also cite:**
+**For Fasta2UShER, please also cite:**
 * Yatish Turakhia, Bryan Thornlow, Landen Gozashti, Angie S. Hinrichs, Jason D. Fernandes, David Haussler, and Russell Corbett-Detig, "Stability of SARS-CoV-2 Phylogenies", bioRxiv [pre-print](https://www.biorxiv.org/content/10.1101/2020.06.08.141127v1) 2020.
