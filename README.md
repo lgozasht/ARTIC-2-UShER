@@ -2,6 +2,21 @@
 
 We provide a tool, Fasta2UShER.py, that converts SARS-CoV-2 genomic data in fasta format into a merged VCF viable for input to UShER. Fasta2UShER.py can take a multiple sequence alignment (MSA) file as input (including standard MSA output from the [SARS-CoV-2 ARTIC Network protocol](https://artic.network/ncov-2019)). Fasta2UShER.py also possesses an input option for unalifgned SARS-CoV-2 data. In this case Fasta2UShER.py employs multiple alignment using Fast Fourier Transform ([MAFFT](https://mafft.cbrc.jp/alignment/software/)) to construct an alignment for each user specified sequence with the SARS-CoV-2 reference. In addition, Fasta2UShER.py considers missing data and can automatically filter variants at [problematic sites](https://virological.org/t/issues-with-sars-cov-2-sequencing-data/473/12) (also see this [pre-print](https://www.biorxiv.org/content/biorxiv/early/2020/06/09/2020.06.08.141127.full.pdf)). Fasta2UShER no longer supports multiple msa files as input. If you possess multiple independently generated msa's, please remove gaps and use the unaligned input option.
 
+### Installation
+
+* For MacOS 10.14 and above: 
+```
+./installMacOS.sh  
+```
+* For Ubuntu 18.04 and above (requires sudo privileges):
+```
+./installUbuntu.sh  
+```
+* For CentOS 7 and above (requires sudo privileges): 
+```
+./installCentOS.sh  
+```
+
 ### Input
 
 MSA file or unaligned full SARS-CoV-2 genomic sequence(s) in fasta format
