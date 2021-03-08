@@ -34,11 +34,8 @@ python3 Fasta2UShER.py -reference NC_045512v2.fa  -inpath ./test/ -unaligned -ou
 
 Merged VCF with missing data for a particular sample denoted as "." in the corresponding genotype column.
 
-For the example above, a new VCF *test/test_merged.vcf* is generated (identical to the one already provided), which can be used by UShER to place the new samples.
+For the example above, a new VCF *test_merged.vcf* is generated (identical to the one already provided), which can be used by UShER to place the new samples.
 
-## matUtils
-
-We are now providing a toolkit, `matUtils`, which can perform a number of tasks related to manipulating and querying the UShER's mutation-annotated tree, such as the generation of the corresponding Newick tree or parsimony-resolved VCF file, masking out mutations, or calculating the number of equally parsimonious placements for a specific set of samples. Full documentation for this toolkit can be found under [src/matUtils](https://github.com/yatisht/usher/blob/master/src/matUtils/README.md).
 
 ## Acknowledgement
 
